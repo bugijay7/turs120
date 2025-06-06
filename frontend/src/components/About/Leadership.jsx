@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Import images from assets folder
-import seniorPastorImg from '../../assets/leadership/seniorpastor.jpeg';
+import seniorPastorImg from '../../assets/leadership/johnSmith.jpeg';
 import leadPastorImg from '../../assets/leadership/leadPastor.jpeg';
 
 import leader1 from '../../assets/leadership/janeDoe.jpeg';
