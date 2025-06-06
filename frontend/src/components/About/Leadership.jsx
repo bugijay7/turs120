@@ -1,14 +1,26 @@
 import React from 'react';
 
+// Import images
+import seniorPastorImg from '../../assets/leadership/seniorpastor.jpeg';
+import leadPastorImg from '../../assets/leadership/leadpastor.jpeg';
+import janeDoe from '../../assets/leadership/janedoe.jpeg';
+import johnSmith from '../../assets/leadership/johnsmith.jpeg';
+import emilyJohnson from '../../assets/leadership/emilyjohnson.jpeg';
+import michaelBrown from '../../assets/leadership/michaelbrown.jpeg';
+import sarahLee from '../../assets/leadership/sarahlee.jpeg';
+import davidWilson from '../../assets/leadership/davidwilson.jpeg';
+import lindaDavis from '../../assets/leadership/lindadavis.jpeg';
+import jamesMiller from '../../assets/leadership/jamesmiller.jpeg';
+
 const otherLeaders = [
-  { id: 1, name: 'Wanjiku Mwangi', title: 'Worship Director', img: '/assets/leadership/janedoe.jpeg' },
-  { id: 2, name: 'Mwangi Njoroge', title: 'Youth Pastor', img: '/assets/leadership/johnsmith.jpeg' },
-  { id: 3, name: 'Akinyi Odhiambo', title: "Children's Ministry", img: '/assets/leadership/emilyjohnson.jpeg' },
-  { id: 4, name: 'Kamau Karanja', title: 'Outreach Coordinator', img: '/assets/leadership/michaelbrown.jpeg' },
-  { id: 5, name: 'Njeri Wambui', title: "Womens Ministry", img: '/assets/leadership/sarahlee.jpeg' },
-  { id: 6, name: 'Otieno Oduor', title: "Men’s Ministry", img: '/assets/leadership/davidwilson.jpeg' },
-  { id: 7, name: 'Chebet Jepkosgei', title: 'Prayer Coordinator', img: '/assets/leadership/lindadavis.jpeg' },
-  { id: 8, name: 'Kiptoo Kipruto', title: 'Tech Director', img: '/assets/leadership/jamesmiller.jpeg' },
+  { id: 1, name: 'Wanjiku Mwangi', title: 'Worship Director', img: janeDoe },
+  { id: 2, name: 'Mwangi Njoroge', title: 'Youth Pastor', img: johnSmith },
+  { id: 3, name: 'Akinyi Odhiambo', title: "Children's Ministry", img: emilyJohnson },
+  { id: 4, name: 'Kamau Karanja', title: 'Outreach Coordinator', img: michaelBrown },
+  { id: 5, name: 'Njeri Wambui', title: "Womens Ministry", img: sarahLee },
+  { id: 6, name: 'Otieno Oduor', title: "Men’s Ministry", img: davidWilson },
+  { id: 7, name: 'Chebet Jepkosgei', title: 'Prayer Coordinator', img: lindaDavis },
+  { id: 8, name: 'Kiptoo Kipruto', title: 'Tech Director', img: jamesMiller },
 ];
 
 function Leadership() {
@@ -17,7 +29,7 @@ function Leadership() {
       {/* Senior Pastor */}
       <div className="flex flex-col md:flex-row gap-10 mb-16 items-start">
         <img
-          src="/assets/leadership/seniorpastor.jpeg"
+          src={seniorPastorImg}
           alt="Senior Pastor"
           className="w-[250px] h-[300px] object-cover shadow-md"
         />
@@ -41,7 +53,7 @@ function Leadership() {
       {/* Lead Pastor */}
       <div className="flex flex-col md:flex-row-reverse gap-10 mb-16 items-start">
         <img
-          src="/assets/leadership/leadpastor.jpeg"
+          src={leadPastorImg}
           alt="Lead Pastor"
           className="w-[250px] h-[300px] object-cover shadow-md"
         />
