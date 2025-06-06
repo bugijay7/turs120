@@ -14,7 +14,7 @@ const handleSubmit = async (e) => {
   const requestDate = new Date().toISOString().split('T')[0];
 
   try {
-    const res = await fetch('http://localhost:3000/api/prayerrequests', {
+    const res = await fetch('https://turs120.onrender.com/api/prayerrequests', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
