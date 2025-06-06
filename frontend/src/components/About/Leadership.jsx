@@ -1,14 +1,14 @@
 import React from 'react';
 
 const otherLeaders = [
-  { id: 1, name: 'Wanjiku Mwangi', title: 'Worship Director', img: '/assets/leadership/janeDoe.jpeg' },
-  { id: 2, name: 'Mwangi Njoroge', title: 'Youth Pastor', img: '/assets/leadership/johnSmith.jpeg' },
-  { id: 3, name: 'Akinyi Odhiambo', title: "Children's Ministry", img: '/assets/leadership/emilyJohnson.jpeg' },
-  { id: 4, name: 'Kamau Karanja', title: 'Outreach Coordinator', img: '/assets/leadership/michaelBrown.jpeg' },
-  { id: 5, name: 'Njeri Wambui', title: "Womens Ministry", img: '/assets/leadership/sarahLee.jpeg' },
-  { id: 6, name: 'Otieno Oduor', title: "Men’s Ministry", img: '/assets/leadership/davidWilson.jpeg' },
-  { id: 7, name: 'Chebet Jepkosgei', title: 'Prayer Coordinator', img: '/assets/leadership/lindaDavis.jpeg' },
-  { id: 8, name: 'Kiptoo Kipruto', title: 'Tech Director', img: '/assets/leadership/jamesMiller.jpeg' },
+  { id: 1, name: 'Wanjiku Mwangi', title: 'Worship Director', img: '/assets/leadership/janedoe.jpeg' },
+  { id: 2, name: 'Mwangi Njoroge', title: 'Youth Pastor', img: '/assets/leadership/johnsmith.jpeg' },
+  { id: 3, name: 'Akinyi Odhiambo', title: "Children's Ministry", img: '/assets/leadership/emilyjohnson.jpeg' },
+  { id: 4, name: 'Kamau Karanja', title: 'Outreach Coordinator', img: '/assets/leadership/michaelbrown.jpeg' },
+  { id: 5, name: 'Njeri Wambui', title: "Womens Ministry", img: '/assets/leadership/sarahlee.jpeg' },
+  { id: 6, name: 'Otieno Oduor', title: "Men’s Ministry", img: '/assets/leadership/davidwilson.jpeg' },
+  { id: 7, name: 'Chebet Jepkosgei', title: 'Prayer Coordinator', img: '/assets/leadership/lindadavis.jpeg' },
+  { id: 8, name: 'Kiptoo Kipruto', title: 'Tech Director', img: '/assets/leadership/jamesmiller.jpeg' },
 ];
 
 function Leadership() {
@@ -41,7 +41,7 @@ function Leadership() {
       {/* Lead Pastor */}
       <div className="flex flex-col md:flex-row-reverse gap-10 mb-16 items-start">
         <img
-          src="/assets/leadership/leadPastor.jpeg"
+          src="/assets/leadership/leadpastor.jpeg"
           alt="Lead Pastor"
           className="w-[250px] h-[300px] object-cover shadow-md"
         />
