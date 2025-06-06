@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPlay, FaHeart } from 'react-icons/fa';
-import img1 from '../../assets/leadership/leadpastor.jpeg';
+import img1 from '../../assets/Leadership/leadpastor.jpeg';
 import img2 from '../../assets/blog/2.jpeg';
 import img3 from '../../assets/blog/3.jpeg';
 import img4 from '../../assets/blog/4.jpeg';
