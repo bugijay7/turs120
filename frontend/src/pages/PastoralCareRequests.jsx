@@ -25,7 +25,7 @@ function PastoralCareRequests() {
 
     try {
       // Adjust URL to your backend API endpoint
-      await axios.post('http://localhost:3000/api/pastoralCare', formData);
+      await axios.post('https://turs120.onrender.com/api/pastoralCare', formData);
       setSuccess('Your pastoral care request has been submitted successfully.');
       setFormData({ title: '', description: '', date: '', time: '', location: '' }); // reset form
     } catch (err) {
