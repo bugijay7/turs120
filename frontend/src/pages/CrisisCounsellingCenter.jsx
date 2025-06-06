@@ -19,7 +19,7 @@ function CrisisCounsellingCenter() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:3000/api/crisis-counselling', {
+      const res = await fetch('https://turs120.onrender.com/api/crisis-counselling', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
