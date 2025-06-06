@@ -1,16 +1,16 @@
 import React from 'react';
 
 // Import images
-import seniorPastorImg from '../../assets/leadership/seniorpastor.jpeg';
-import leadPastorImg from '../../assets/leadership/leadpastor.jpeg';
-import janeDoe from '../../assets/leadership/janedoe.jpeg';
-import johnSmith from '../../assets/leadership/johnsmith.jpeg';
-import emilyJohnson from '../../assets/leadership/emilyjohnson.jpeg';
-import michaelBrown from '../../assets/leadership/michaelbrown.jpeg';
-import sarahLee from '../../assets/leadership/sarahlee.jpeg';
-import davidWilson from '../../assets/leadership/davidwilson.jpeg';
-import lindaDavis from '../../assets/leadership/lindadavis.jpeg';
-import jamesMiller from '../../assets/leadership/jamesmiller.jpeg';
+import seniorPastorImg from '../../assets/Leadership/seniorpastor.jpeg';
+import leadPastorImg from '../../assets/Leadership/leadpastor.jpeg';
+import janeDoe from '../../assets/Leadership/janedoe.jpeg';
+import johnSmith from '../../assets/Leadership/johnsmith.jpeg';
+import emilyJohnson from '../../assets/Leadership/emilyjohnson.jpeg';
+import michaelBrown from '../../assets/Leadership/michaelbrown.jpeg';
+import sarahLee from '../../assets/Leadership/sarahlee.jpeg';
+import davidWilson from '../../assets/Leadership/davidwilson.jpeg';
+import lindaDavis from '../../assets/Leadership/lindadavis.jpeg';
+import jamesMiller from '../../assets/Leadership/jamesmiller.jpeg';
 
 const otherLeaders = [
   { id: 1, name: 'Wanjiku Mwangi', title: 'Worship Director', img: janeDoe },
