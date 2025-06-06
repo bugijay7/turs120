@@ -19,7 +19,7 @@ const otherLeaders = [
   { id: 2, name: 'Mwangi Njoroge', title: 'Youth Pastor', img: leader2 },
   { id: 3, name: 'Akinyi Odhiambo', title: "Children's Ministry", img: leader3 },
   { id: 4, name: 'Kamau Karanja', title: 'Outreach Coordinator', img: leader4 },
-  { id: 5, name: 'Njeri Wambui', title: "Women\'s Ministry", img: leader5 },
+  { id: 5, name: 'Njeri Wambui', title: "Womens Ministry", img: leader5 },
   { id: 6, name: 'Otieno Oduor', title: "Men’s Ministry", img: leader6 },
   { id: 7, name: 'Chebet Jepkosgei', title: 'Prayer Coordinator', img: leader7 },
   { id: 8, name: 'Kiptoo Kipruto', title: 'Tech Director', img: leader8 },
