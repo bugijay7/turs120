@@ -40,7 +40,7 @@ const BabyDedicationClass = () => {
       setLoading(true);
 
       const response = await axios.post(
-        'http://localhost:3000/api/babyDedication',
+        'https://turs120.onrender.com/api/babyDedication',
         submissionData
       );
 
