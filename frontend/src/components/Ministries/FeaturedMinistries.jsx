@@ -10,7 +10,7 @@ function FeaturedMinistries() {
         <div
           className="w-1/3 relative flex justify-center items-center text-white"
           style={{
-            backgroundImage: url(${prayerCellImg}),
+            backgroundImage: `url(${prayerCellImg})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
