@@ -8,7 +8,7 @@ function Hero() {
       <div
         className="hero relative"
         style={{
-          backgroundImage: `url(${heroBg})`,
+          backgroundImage: url(${heroBg}),
           height: '100vh',
         }}
       >
@@ -31,17 +31,13 @@ function Hero() {
           </div>
         </div>
 
-        {/* Featured Box - Visible on All Screens */}
-        <div
-          className="w-full md:w-auto fixed bottom-0 left-0 md:absolute md:bottom-4 md:left-4 z-20 p-2 md:p-0"
-        >
-          <div className="bg-white bg-opacity-80 backdrop-blur-md rounded-md shadow-lg p-4">
-            <EventsPreview />
-          </div>
+        {/* Positioned at bottom-left */}
+        <div className="absolute bottom-4 left-4">
+          <EventsPreview />
         </div>
       </div>
     </div>
   );
 }
 
-export default Hero;
+export default Hero;  
