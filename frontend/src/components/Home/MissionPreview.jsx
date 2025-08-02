@@ -13,19 +13,20 @@ function MissionPreview() {
   return (
     <section className="bg-transparent px-6 py-16 max-w-[1200px] mx-auto space-y-16">
 
-      {/* Section One: Four Cards - no gaps */}
-      <div className="flex flex-wrap">
-        {cardData.map((card, index) => (
-          <div
-            key={index}
-            className="bg-gray-600 text-white w-[200px] h-[200px] flex flex-col items-start justify-center shadow-md p-4"
-            style={{ margin: 0 }}
-          >
-            <h4 className="text-xl font-bold mb-2">{card.title}</h4>
-            <p className="text-sm text-left">{card.description}</p>
-          </div>
-        ))}
-      </div>
+     {/* Section One: Four Cards - no gaps */}
+<div className="flex flex-row flex-wrap gap-0">
+  {cardData.map((card, index) => (
+    <div
+      key={index}
+      className="bg-gray-600 text-white w-[45vw] h-[45vw] min-w-[140px] max-w-[200px] flex flex-col items-start justify-center shadow-md p-2 sm:p-4"
+      style={{ margin: 0 }}
+    >
+      <h4 className="text-base sm:text-xl font-bold mb-1 sm:mb-2">{card.title}</h4>
+      <p className="text-xs sm:text-sm text-left">{card.description}</p>
+    </div>
+  ))}
+</div>
+
 
       {/* Section Two: Mission Statement */}
       <div className="flex flex-row items-start flex-wrap justify-between max-w-[1400px] text-left">
