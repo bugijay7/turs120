@@ -47,4 +47,4 @@ function FeaturedMinistries() {
   );
 }
 
-export default FeaturedMinistries;
+export default FeaturedMinistries; 
