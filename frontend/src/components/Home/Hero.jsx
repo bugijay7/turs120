@@ -32,7 +32,7 @@ function Hero() {
         </div>
 
         {/* Positioned at bottom-left */}
-        <div className="bottom-4 left-4">
+        <div className="mt-12">
           <EventsPreview />
         </div>
       </div>
