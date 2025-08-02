@@ -8,7 +8,7 @@ function Hero() {
       <div
         className="hero relative"
         style={{
-          backgroundImage: url(${heroBg}),
+          backgroundImage: `url(${heroBg})`,
           height: '100vh',
         }}
       >
